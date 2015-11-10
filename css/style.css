@@ -230,3 +230,8 @@ audio {
     width: 100%;
     text-align: center;
 }
+
+/* live.html */
+#scroll_live a {
+    color: black;
+}
