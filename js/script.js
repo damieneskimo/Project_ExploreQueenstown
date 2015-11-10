@@ -11,7 +11,13 @@ $(function() {
         $(".dropdown-menu", this).fadeOut("fast");
     }); //hover
     
-
+    //highlight the current nav
+    $(document).ready(function(){
+    $('header .nav-pills a').each(function(index) {
+        if(this.href.trim() == window.location)
+            $(this).addClass("selected");
+    });
+});
 })
 
 

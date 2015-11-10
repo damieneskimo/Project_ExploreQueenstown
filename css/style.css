@@ -166,6 +166,9 @@ footer .nav li a span {
     padding: 20px;
 }
 
+.selected {
+    border-bottom: 2px solid white; 
+}
 /* bungy.html */
 #scrollspy a {
     color: black;
