@@ -74,34 +74,34 @@
             <h2 class="page-header h2">For any information or comments, please feel free to contact us in any way. </h2>
             <div class="row">
                 <div class="form col-sm-6">
-                    <form class="form-horizontal" method="post" action="mailto: damieneskimo@gmail.com" enctype="text/plain">
+                    <form method="post" action="mailto:damieneskimo@gmail.com" class="form-horizontal" enctype="text/plain">
                         <fieldset>
                             <legend class="h3">Please fill out the form below</legend>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label" for="inputName">Name</label>
                                 <div class="col-sm-10">
-                                    <input class="form-control" type="text" id="inputName" placeholder="Name" required>
+                                    <input class="form-control" type="text" id="inputName" name="name" placeholder="Name" required>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="col-sm-2 control-label" for="Email">Email</label>
                                 <div class="col-sm-10">
-                                    <input class="form-control" type="email" id="Email" placeholder="Email" required>
+                                    <input class="form-control" type="email" id="Email" name="email" placeholder="Email" required>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="col-sm-2 control-label" for="contactNumber">Contact Number</label>
                                 <div class="col-sm-10">
-                                    <input class="form-control" type="tel" id="contactNumber" placeholder="Contact Number">
+                                    <input class="form-control" type="tel" id="contactNumber" name="contact number" placeholder="Contact Number">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="col-sm-2 control-label" for="comments">Comments</label>
                                 <div class="col-sm-10">
-                                    <textarea class="form-control" id="comments" placeholder="Comment"></textarea>
+                                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment"></textarea>
                                 </div>
                             </div>
 
@@ -109,7 +109,7 @@
                             <div class="form-group">
                                 <div class="checkbox col-sm-10 col-sm-offset-2">
                                     <label for="subscribe">
-                                        <input id="subscribe" type="checkbox">
+                                        <input id="subscribe" name="subscribe" type="checkbox">
                                         Subscribe to Our Newsletter
                                     </label>        
                                 </div>
@@ -118,7 +118,7 @@
                             <!-- submit button -->
                             <div class="form-group">
                                 <div class="col-sm-10 col-sm-offset-2">
-                                    <input type="submit" value="SUBMIT" class="btn btn-warning" aria-label="submit the form">  
+                                    <input type="submit" value="SUBMIT" class="btn btn-lg btn-warning" aria-label="submit the form">  
                                 </div>
                             </div>
                         </fieldset>

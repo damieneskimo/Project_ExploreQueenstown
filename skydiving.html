@@ -138,15 +138,15 @@
                                     <h3 class="modal-title text-primary h3" id="booknowLabel">Book Now</h3>
                                   </div>
                                   
-                                    <form action="mailto: damieneskimo@gmail.com" method="post" autocomplete="on">
+                                    <form method="post" action="mailto:damieneskimo@gmail.com" enctype="text/plain" autocomplete="on">
                                         <div class="modal-body">
                                           <div class="form-group">
                                             <label for="name" class="control-label">Your Name:</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name" required autofocus>
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required autofocus>
                                           </div>
                                           <div class="form-group">
                                             <label for="email" class="control-label">Your Email:</label>
-                                            <input type="email" class="form-control" id="email" placeholder="email" required>
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="email" required>
                                           </div> 
                                           <div class="form-group">
                                             <label for="date" class="control-label">Choose Your Lucky Day:</label>
@@ -154,11 +154,11 @@
                                           </div>
                                           <div class="form-group">
                                             <label for="message-text" class="control-label">Message:</label>
-                                            <textarea class="form-control" id="message-text" placeholder="Anything you wanna tell us"></textarea>
+                                            <textarea class="form-control" id="message-text" name="message" placeholder="Anything you wanna tell us"></textarea>
                                           </div>
                                         </div> <!-- modal-body -->
                                         <div class="modal-footer">
-                                            <input type="submit" value="BOOK" class="btn btn-danger center-block">
+                                            <input type="submit" value="BOOK" class="btn btn-lg btn-danger center-block">
                                         </div>
                                     </form>
                     
