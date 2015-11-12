@@ -31,6 +31,8 @@ header {
 body {
     font-family: 'Nixie One', cursive;
     position: relative;
+    color: black;
+    font-weight: bold;
 }
 
 .navbar-brand span  {
