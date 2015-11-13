@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" crossorigin="anonymous">
   <meta name="description" content="Explore Queenstown - the topmost website providing the information of activities and sports, accommodation, food and drink and other things for any Queenstown tourists. ">
   <meta name="robots" content="follow, index"> 
   <title>Bungy Jump | Explore Queenstown</title>
@@ -40,16 +40,16 @@
                   <ul class="dropdown-menu">
                     <li><a href="bungy.html">Bungy Jump</a></li>
                     <li><a href="skydiving.html">Skydiving</a></li>
-                    <li><a href="ski.html">Ski | Snowboard</a></li>
-                    <li><a href="rafting.html">Rafting</a></li>
-                    <li><a href="hiking.html">Hiking</a></li>
-                    <li><a href="golf.html">Golf</a></li>
+                    <li><a href="skydiving.html">Ski | Snowboard</a></li>
+                    <li><a href="skydiving.html">Rafting</a></li>
+                    <li><a href="skydiving.html">Hiking</a></li>
+                    <li><a href="skydiving.html">Golf</a></li>
                   </ul>     
                 </li>
-                <li><a href="food-drink.html">Food &amp; Drink<span class="sr-only"></span></a></li>
+                <li><a href="food-drink.html">Food | Drink<span class="sr-only"></span></a></li>
                 <li><a href="live.html">Accommodation<span class="sr-only"></span></a></li>
                 <li>
-                   <form class="navbar-form navbar-right" role="search">
+                   <form class="navbar-form navbar-right">
                         <div class="form-group">
                           <input type="text" class="form-control" placeholder="Search">
                         </div>
@@ -87,12 +87,12 @@
                                   <li role="presentation"><a role="tab" data-toggle="tab" href="#price_kawarau">Price</a></li>
                                </ul>
                                <div class="tab-content">
-                               <section id="info_kawarau" role="tabpanel" class="tab-pane active">
+                               <section id="info_kawarau" class="tab-pane active">
                                  <p>The Kawarau Bridge Bungy is the World Home of Bungy Jumping. It was from this site in 1988 that Bungy pioneers AJ Hackett and Henry van Asch launched both themselves and an international phenomenon, which has become renowned as one of the most exhilarating things to do in Queenstown - the adventure capital of the world.</p>
 
                                  <p>This has been the world's best known and best loved Bungy Jump for more than 20 years and it continues to set pulses racing amongst the extreme enthusiasts who visit from all corners of the globe, whether young in age or young at heart.</p>
                                 </section>
-                                <section id="price_kawarau" role="tabpanel" class="tab-pane">
+                                <section id="price_kawarau" class="tab-pane">
                                     <h4>Kawarau Bridge Bungy:</h4>
                                     <p>The original home of Bungy. Includes T-Shirt, certificate and courtesy transport from central Queenstown.</p>
                                     <p>Adult &dollar;195.00</p>
@@ -123,11 +123,11 @@
                                             <input type="email" class="form-control" id="email" name="email" placeholder="email" required>
                                           </div> 
                                           <div class="form-group">
-                                              <label for="select" class="control-label">Choose Your Favorite One</label>
                                               <select id="select" name="select" class="form-control" required>
-                                                  <option>Kawarau Bridge Bungy</option>
-                                                  <option>The Ledge Bungy</option>
-                                                  <option>The Nevis Bungy</option>
+                                                  <option value="" class="disabled">Choose Your Favorite One</option>
+                                                  <option value="Kawarau Bridge Bungy">Kawarau Bridge Bungy</option>
+                                                  <option value="The Ledge Bungy">The Ledge Bungy</option>
+                                                  <option value="The Nevis Bungy">The Nevis Bungy</option>
                                               </select>
                                           </div>
                                           <div class="form-group">
@@ -165,12 +165,12 @@
                                   <li role="presentation"><a role="tab" data-toggle="tab" href="#price_ledge">Price</a></li>
                                </ul>
                                <div class="tab-content">
-                               <section id="info_ledge" role="tabpanel" class="tab-pane active">
+                               <section id="info_ledge" class="tab-pane active">
                                  <p>No Queenstown holiday would be complete without taking in the breath taking and panoramic views afforded by the Ledge. Uniquely positioned at the top of the Skyline Gondola, the Ledge Bungy provides a true example of the ‘up-for-anything’ Kiwi attitude. The Ledge Bungy is one of the most versatile adventure attractions in Queenstown; and then you could experience some fast &amp; furious Queenstown sightseeing on the Ledge Swing.</p>
 
                                  <p>Just a hop, skip and a Gondola ride from the centre of town, this is a great way for you and your family to get your adrenaline fill without having to venture too far, or take too much time out of your holiday in Queenstown.</p>
                                 </section>
-                                <section id="price_ledge" role="tabpanel" class="tab-pane">
+                                <section id="price_ledge" class="tab-pane">
                                     <h4>The Ledge Bungy:</h4>
                                     <p>Jump over Queenstown - includes T-Shirt and certificate. (Gondola not included)</p>
                                     <p>Adult &dollar;195.00</p>
@@ -198,12 +198,12 @@
                                   <li role="presentation"><a role="tab" data-toggle="tab" href="#price_nevis">Price</a></li>
                                </ul>
                                <div class="tab-content">
-                               <section id="info_nevis" role="tabpanel" class="tab-pane active">
+                               <section id="info_nevis" class="tab-pane active">
                                  <p>Anyone can tell you that Queenstown has a lot to offer – thrilling adventure, beautiful scenery and epic highs. But those who are really in the know about what to do in Queenstown will tell you that the Nevis Bungy is where it’s at if you want everything in one hit.</p>
 
                                  <p>Set an epic 134m above the stark beauty of the Nevis River, the highest Bungy (bungee) in Australasia is a once in a lifetime experience. They start by lulling you into a false sense of security on board there comfortable buses for the scenic 35 minute drive to site, but things quickly take a turn for the daring as soon as you leave the highway for our 4x4 backcountry road.</p>
                                 </section> <!-- info_nevis -->
-                                <section id="price_nevis" role="tabpanel" class="tab-pane">
+                                <section id="price_nevis" class="tab-pane">
                                     <h4>The Nevis Bungy:</h4>
                                     <p>Go big or go home! Includes T-shirt, certificate and transport.</p>
                                     <p>Adult &dollar;275.00</p>
@@ -237,14 +237,14 @@
                     Follow Us:
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/yanwei.jiang.96" target="_blank"><img src=images/Facebook.png>
+                                <a href="https://www.facebook.com/yanwei.jiang.96" target="_blank"><img src=images/Facebook.png alt="facebook icon">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://plus.google.com/u/0/" target="_blank"><img src=images/Twitter.png></a>
+                                <a href="https://plus.google.com/u/0/" target="_blank"><img src=images/Twitter.png alt="twitter icon"></a>
                             </li>
                             <li>
-                                <a href="https://plus.google.com/u/0/" target="_blank"><img src=images/GooglePlus.png></a>
+                                <a href="https://plus.google.com/u/0/" target="_blank"><img src=images/GooglePlus.png alt="google plus icon"></a>
                             </li>
                         </ul>
                 </li>
@@ -261,7 +261,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>    
 </body>
 </html>
